@@ -6,7 +6,7 @@ export const load = ( async ({ fetch, url }) => {
   let searchWord = params.get("searchWord") ? params.get("searchWord") : 'Nirvana'
   
 
-	const response = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+	const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -14,7 +14,7 @@ export const load = ( async ({ fetch, url }) => {
     }
   });
 
-  const response2 = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+  const response2 = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -22,7 +22,7 @@ export const load = ( async ({ fetch, url }) => {
     }
   });
 
-  const response3 = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+  const response3 = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",

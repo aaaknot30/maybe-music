@@ -8,7 +8,7 @@ export const load = ( async ({ fetch, url }) => {
   // console.log("artist: ", artist)
   // console.log("searchWord: ", searchWord)
 
-	const response = await fetch(`http://ws.audioscrobbler.com/2.0/?method=track.getinfo&artist=${artist}&track=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+	const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=track.getinfo&artist=${artist}&track=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",

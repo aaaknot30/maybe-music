@@ -8,7 +8,7 @@ export const load = ( async ({ fetch, url }) => {
   // console.log("artist: ", artist)
   // console.log("searchWord: ", searchWord)
 
-	const response = await fetch(`http://ws.audioscrobbler.com/2.0/?method=album.getinfo&artist=${artist}&album=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+	const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=album.getinfo&artist=${artist}&album=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -16,13 +16,6 @@ export const load = ( async ({ fetch, url }) => {
     }
   });
 
-  // const response = await fetch(`http://ws.audioscrobbler.com/2.0/?method=album.getinfo&artist=${artist}&album=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
-  //   method: "GET",
-  //   headers: {
-  //     "Content-Type": "application/json",
-  //     "User-agent": "Maybe Music App /0.1 +http://adb.maybe-music.com" 
-  //   }
-  // });
 
   const content = await response.json();
   // const artist = data.artist

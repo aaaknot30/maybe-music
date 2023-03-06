@@ -2,7 +2,7 @@ import type { PageLoad } from './$types';
  
 export const load = ( async ({ fetch, params }) => {
 
-	const response = await fetch(`http://ws.audioscrobbler.com/2.0/?method=chart.getTopArtists&artist=Cher&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+	const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=chart.getTopArtists&artist=Cher&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -10,7 +10,7 @@ export const load = ( async ({ fetch, params }) => {
     }
   });
 
-  const response2 = await fetch(`http://ws.audioscrobbler.com/2.0/?method=chart.getTopTracks&artist=Cher&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+  const response2 = await fetch(`https://ws.audioscrobbler.com/2.0/?method=chart.getTopTracks&artist=Cher&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",

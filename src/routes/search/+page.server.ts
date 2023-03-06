@@ -29,7 +29,7 @@ export const load = (async ({ fetch, url }) => {
   let searchWord = fin ? fin : word
 
 
-  const results = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.search&artist=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+  const results = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.search&artist=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -37,7 +37,7 @@ export const load = (async ({ fetch, url }) => {
     }
   });
 
-  const results2 = await fetch(`http://ws.audioscrobbler.com/2.0/?method=album.search&album=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+  const results2 = await fetch(`https://ws.audioscrobbler.com/2.0/?method=album.search&album=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -45,7 +45,7 @@ export const load = (async ({ fetch, url }) => {
     }
   });
 
-  const results3 = await fetch(`http://ws.audioscrobbler.com/2.0/?method=track.search&track=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
+  const results3 = await fetch(`https://ws.audioscrobbler.com/2.0/?method=track.search&track=${searchWord}&api_key=c427f710e83c3ba7be53cdf86dac1e0f&format=json`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
