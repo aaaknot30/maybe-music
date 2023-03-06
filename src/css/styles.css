@@ -1,0 +1,144 @@
+
+  /* * {
+    border: 1px solid blue;
+  } */
+
+
+  body {
+    background-color: #444;
+    margin: 0;
+  }
+  main {
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid #aaa;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+  }
+
+  h1 {
+    padding: 0 0 .5rem 1rem;
+    margin: 0;
+    color: #FFBB00;
+    font-size: 3rem;
+    text-shadow: 3px 3px 2px #444;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  h2 {
+    margin: 1rem 0 -1rem 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h3 {
+    margin: 1.5rem 0 .2rem 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h4 {
+    margin: .5rem 0 0 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  p {
+    margin: 0 0 .2rem 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+
+  img {
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+
+  }
+
+  ul {
+    margin: .3rem 0 0 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  li {
+
+  }
+
+  hr {
+    width: 60%;
+    margin-left: 0;
+  }
+
+  header {
+    background-image: url('../img/MaybeMusic_background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .header-item {
+    margin-top: 1rem;
+  }
+
+  form {
+    margin: 0 1rem 1rem 0;
+  }
+
+  form a {
+    color: white;
+    font-weight: 700;
+    margin: 0 0 0 .5rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #444;
+  }
+
+  input[type=text] {
+    width: 10rem;
+    padding: .1rem 1rem;
+    border-radius: 1rem;
+    margin: 0 .5rem 0 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;;
+  }
+
+
+  /* ---------------- Section -------------- */
+
+  section {
+    margin: 0 0 0 3rem;
+    padding-right: 2rem;
+  }
+
+  .flex {
+    display: flex;
+    gap: 5rem;
+    padding: 0 1rem 1rem 0;
+  }
+
+  .flex div {
+    min-width: 20%;
+    max-width: 60%;
+  }
+
+  .flex div:nth-child(1) {
+    margin-right: -1.5rem;
+  }
+
+  footer {
+    text-align: center;
+    height: 1.5rem;
+    color: white;
+    padding:  .5rem 0 .5rem 0;
+    background-image: url('../img/MaybeMusic_background_bottom.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+
+
