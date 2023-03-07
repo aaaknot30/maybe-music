@@ -18,7 +18,7 @@ export const load = ( async ({ fetch, url }) => {
 
   const content = await response.json();
   // const artist = data.artist
-  // console.log(content)
+  console.log(content)
 
   return {
     content

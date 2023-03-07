@@ -2,30 +2,35 @@
   import type { PageData } from './$types';
 
   export let data: PageData;
+
   const { track } = data.content
+  console.log(track)
+
+
 </script>
 
 
 <section>
   
-  {#if track}
 
- 
+{#if data.content.message}
+  <h2> {data.content.message}</h2>
+{:else}
+
+
 <h2><a href="/artist?searchWord={track.artist.name}"> {track.artist.name} </a></h2>
 <h3>{track.name}</h3>
 
 <div class="section-item flex">
+
 <div>
   {#if track.wiki}
   <h3>Summary</h3>
 <p>{@html track.wiki.summary}</p>
  
   {/if}
-
-  
-
-
 </div>
+
 <div>
 {#if track.toptags}
 <h3>Related Tags</h3>
@@ -34,15 +39,16 @@
 
   {/each}
   {/if}
+</div>
 
- 
 
 </div>
-</div>
+
+
+<p class="buttonLink"><a href="https://www.youtube.com/results?search_query={track.artist.name} - {track.name}" target="_blank" rel="noreferrer">See video on Youtube</a></p>
+<p> <a class="buttonLink" href="javascript:history.back()"> Go Back</a> </p>
 
 {/if}
-<p class="buttonLink"><a href="https://www.youtube.com/results?search_query={track.name} - {track.artist.name}" target="_blank" rel="noreferrer">See video on Youtube</a></p>
-<p> <a class="buttonLink" href="javascript:history.back()"> Go Back</a> </p>
 </section>
 
 <style>

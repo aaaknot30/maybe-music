@@ -29,7 +29,7 @@
     {name: "rap"},
     {name: "new wave"},
     {name: "synthpop"},
-    {name: "Soundtrack"},
+    {name: "techno"},
     {name: "blues"},
     {name: "acoustic"},
     {name: "psychedelic"},
