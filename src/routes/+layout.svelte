@@ -174,7 +174,26 @@
     background-color: #ffce46;
   }
 
-
+  @media (max-width: 1100px) {
+    main {
+      width: 98%;
+    }
+  
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    input[type=text] {
+      margin: 0 .5rem 0 .5rem;
+    }
+  
+    form {
+      padding: 0 .5rem 0 .5rem;
+    }
+  
+  }
 
 
 
