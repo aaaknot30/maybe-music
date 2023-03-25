@@ -107,7 +107,7 @@
 
   </div>
 
-  <div>
+  <div class="lastDiv">
 
       {#each tagRange4 as specificTag}
        <p><input type="radio" bind:group={scoops} name="genre" id="genre" value={specificTag.name} />
@@ -211,6 +211,13 @@
     h2 {
       margin: 1rem 0 -2rem 0;
     }
+
+    @media (max-width: 1100px) {
+      .lastDiv {
+        visibility: hidden;
+      }
+  
+  }
   
 </style>
 
