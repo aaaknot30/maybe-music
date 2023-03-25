@@ -214,7 +214,7 @@
 
     @media (max-width: 1100px) {
       .lastDiv {
-        visibility: hidden;
+        display: none;
       }
   
   }
