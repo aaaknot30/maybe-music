@@ -37,7 +37,7 @@
 
 <footer>
   <div class="footer-item">
-    <p>By Kyle Larson, 3/2023</p>
+    <p>By Kyle Larson</p>
 
   </div>
 
