@@ -1,14 +1,14 @@
 <script lang="ts">
-  import type { PageData } from './$types';
+  //import type { PageData } from './$types';
 
-  export let data: PageData;
-  const { album } = data.content
+  //export let data: PageData;
+  //const { album } = data.content
 </script>
 
 
 <section>
 
-  <h2><a href="/artist?searchWord={album.artist}">{album.artist}</a></h2>
+  <!-- <h2><a href="/artist?searchWord={album.artist}">{album.artist}</a></h2>
   <h3>{album.name}</h3>
     
   <div class="section-item flex">
@@ -47,7 +47,7 @@
 
       {/if}
     </div>
-  </div> 
+  </div>  -->
   
 
 </section>
@@ -71,4 +71,3 @@
     max-width: 160px;
   }
 </style>
-
