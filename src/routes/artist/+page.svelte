@@ -1,15 +1,15 @@
 <script lang="ts">
-  import type { PageData } from './$types';
+  //import type { PageData } from './$types';
 
-  export let data: PageData;
-  $: artist = data.artist
-  const artistResults = data.results
+  //export let data: PageData;
+  //$: artist = data.artist
+  //const artistResults = data.results
 
 </script>
 
 
 <section>
-  <h2> {artist.name}</h2>
+  <!-- <h2> {artist.name}</h2>
   <h3>Summary</h3>
   <p>{@html artist.bio.summary}</p>
     
@@ -56,7 +56,7 @@
 
 
   </div>
-  <p> <a class="buttonLink" href="javascript:history.back()"> Go Back</a> </p>
+  <p> <a class="buttonLink" href="javascript:history.back()"> Go Back</a> </p> -->
 
 </section>
 
@@ -73,9 +73,3 @@
     max-width: 160px;
   }
 </style>
-
-
-
-
-
-
