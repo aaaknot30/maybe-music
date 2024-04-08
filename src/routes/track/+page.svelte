@@ -1,17 +1,17 @@
 <script lang="ts">
-  import type { PageData } from './$types';
+  // import type { PageData } from './$types';
 
-  export let data: PageData;
+  // export let data: PageData;
 
-  const { track } = data.content
-  console.log(track)
+  // const { track } = data.content
+  // console.log(track)
 
 
 </script>
 
 
 <section>
-  
+<!--   
 
 {#if data.content.message}
   <h2> {data.content.message}</h2>
@@ -48,7 +48,7 @@
 <p class="buttonLink"><a href="https://www.youtube.com/results?search_query={track.artist.name} - {track.name}" target="_blank" rel="noreferrer">See video on Youtube</a></p>
 <p> <a class="buttonLink" href="javascript:history.back()"> Go Back</a> </p>
 
-{/if}
+{/if} -->
 </section>
 
 <style>
@@ -70,4 +70,3 @@
   }
 
 </style>
-
