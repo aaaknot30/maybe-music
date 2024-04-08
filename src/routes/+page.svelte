@@ -12,7 +12,8 @@
 
 
 <section>
-  <h2> Why Maybe Music?</h2>
+  <h2> Down for maintenance</h2>
+  <!-- <h2> Why Maybe Music?</h2>
     
   <div class="section-item">
     <div>
@@ -53,7 +54,7 @@
   
       </div>
   
-  </div>
+  </div> -->
 
 </section>
 
@@ -67,9 +68,3 @@ h3 {
   margin: 1rem 0 0 0;
 }
 </style>
-
-
-
-
-
-
