@@ -10,7 +10,8 @@
       <a href="/"> <h1>Maybe Music</h1> </a>
     </div>
     <div class="header-item">
-    <form method="POST" action="/search">
+    <!-- <form method="POST" action="/search"> -->
+      <form method="POST" action="/">
         <input
           name="searchWord"
           type="text"
