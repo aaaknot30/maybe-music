@@ -1,16 +1,16 @@
 <script lang="ts">
-  import type { PageData } from './$types';
+  //import type { PageData } from './$types';
 
-  export let data: PageData;
-  const artistResults  = data.content.results
-  const albumResults = data.content2.results
-  const trackResults = data.content3.results
+  //export let data: PageData;
+  //const artistResults  = data.content.results
+  //const albumResults = data.content2.results
+  //const trackResults = data.content3.results
 
 </script>
 
 
 <section>
-
+<!-- 
 <h2> {data.searchWord}</h2>
 
   <div class="section-item flex raise">
@@ -45,7 +45,7 @@
     
 
 
-  </div> 
+  </div>  -->
 
 </section>
 
@@ -81,9 +81,3 @@
       margin: 0 0 0 0;
     }
 </style>
-
-
-
-
-
-
