@@ -19,8 +19,10 @@
         />
         <button type="submit">Go</button>
         <div class="header-item">
-          <a href="/genre">Top Genre</a>
-          <a href="/chart">Top Charts</a>
+          <!-- <a href="/genre">Top Genre</a>
+          <a href="/chart">Top Charts</a> -->
+          <a href="/">Top Genre</a>
+          <a href="/">Top Charts</a>
           
           <!-- <a href="/artist">Artists</a>
           <a href="/album">Albums</a>
