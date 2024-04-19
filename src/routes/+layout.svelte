@@ -21,9 +21,9 @@
           <a href="/genre">Top Genre</a>
           <a href="/chart">Top Charts</a>
           
-          <a href="/artist">Artists</a>
+          <!-- <a href="/artist">Artists</a>
           <a href="/album">Albums</a>
-          <a href="/track">Tracks</a>
+          <a href="/track">Tracks</a> -->
           <a href="/">Home</a>
         </div>
 
