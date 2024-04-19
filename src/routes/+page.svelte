@@ -12,8 +12,7 @@
 
 
 <section>
-  <h2> Down for maintenance</h2>
-  <!-- <h2> Why Maybe Music?</h2>
+  <h2> Why Maybe Music?</h2>
     
   <div class="section-item">
     <div>
@@ -54,7 +53,7 @@
   
       </div>
   
-  </div> -->
+  </div>
 
 </section>
 

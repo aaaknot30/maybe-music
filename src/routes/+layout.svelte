@@ -10,8 +10,7 @@
       <a href="/"> <h1>Maybe Music</h1> </a>
     </div>
     <div class="header-item">
-    <!-- <form method="POST" action="/search"> -->
-      <form method="POST" action="/">
+     <form method="POST" action="/search">
         <input
           name="searchWord"
           type="text"
@@ -19,14 +18,12 @@
         />
         <button type="submit">Go</button>
         <div class="header-item">
-          <!-- <a href="/genre">Top Genre</a>
-          <a href="/chart">Top Charts</a> -->
-          <a href="/">Top Genre</a>
-          <a href="/">Top Charts</a>
+          <a href="/genre">Top Genre</a>
+          <a href="/chart">Top Charts</a>
           
-          <!-- <a href="/artist">Artists</a>
+          <a href="/artist">Artists</a>
           <a href="/album">Albums</a>
-          <a href="/track">Tracks</a> -->
+          <a href="/track">Tracks</a>
           <a href="/">Home</a>
         </div>
 
